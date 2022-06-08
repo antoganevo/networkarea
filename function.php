@@ -3,7 +3,7 @@
 session_start();
 
 //koneksi ke database
-$conn = mysqli_connect("juan5684_logan","juan5684_logan","mksjuarayya","networkarea");
+$conn = mysqli_connect("localhost","localhost","","networkarea");
 
 // Dashboard
     $query1 = $conn->query("SELECT * FROM patchcore");
